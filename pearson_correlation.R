@@ -13,3 +13,6 @@ cor.test(weight$Chocolate,weight$Weight,alternative = "greater")
 details<-lm(weight$Weight~ weight$Chocolate)
 abline(details, col="red")
 details
+choc_week<-c(2,4,1.5,2,3)
+happiness<-c(7,3,8,8,6)
+cor.test(choc_week,happiness)
